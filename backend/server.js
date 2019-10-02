@@ -4,7 +4,7 @@ const http = require('http');
 const app = require('./app');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://aim:beginZipporah1010@cluster0-dbrul.mongodb.net/test?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://aim:<passwd>@cluster0-dbrul.mongodb.net/test?retryWrites=true&w=majority')
     .then(()=>{
         console.log("successfully connected to mongodb atlas");
     })
